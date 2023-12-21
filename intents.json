@@ -1,0 +1,104 @@
+{
+    "intents": [
+        {
+            "tag": "salutation",
+            "patterns": [
+                "Hi",
+                "Salut",
+                "Bonjour",
+                "comment allez vous",
+                "Bonsoir",
+                "Comment ca va"
+            ],
+            "responses": [
+                "Bonjour, Comment puis je vous aider ?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "aurevoir",
+                "bonne journee",
+                "bye bye",
+                "plus tard",
+                "byebye",
+                "merci"
+            ],
+            "responses": [
+                "N'hesitez pas a revenir si vous avez d'autres questions. Bonne journee"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "age",
+            "patterns": [
+                "quel age",
+                "quel age a tu",
+                "c'est quoi ton age",
+                "age?"
+            ],
+            "responses": [
+                "Je n'ai pas d'age!"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "nom",
+            "patterns": [
+                "quel est ton nom",
+                "comment dois je vous appeler",
+                "comment tu t'appelles?"
+            ],
+            "responses": [
+                "Je m'appelle ChatBot."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "heures",
+            "patterns": [
+                "heure",
+                "jours de travail",
+                "quels sont vos horaires",
+                "heures d'ouverture",
+                "l'universite est elle ouverte le samedi",
+                "la faculte est elle ouverte le samedi",
+                "quelles sont les heures d'ouverture"
+            ],
+            "responses": [
+                "L'universite est ouverte de 8h a 18h du samedi au jeudi."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "bibliotheque",
+            "patterns": [
+                "y a-t-il une bibliotheque",
+                "avez-vous une bibliotheque",
+                "Ou est la bibliotheque",
+                "informations sur la bibliotheque",
+                "bibliotheque",
+                "bibliotheque",
+                "je veux savoir s'il y a une bibliotheque"
+            ],
+            "responses": [
+                "Il y a une bibliotheque centrale. Les horaires sont de 8h a 18h et pour plus d'informations, visitez <a target=\"blank\" href=\"https://goo.gl/maps/xkeSfJS8g4tMuc86A?coh=178571&entry=tt\">ici</a>"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "facultes",
+            "patterns": [
+                "nombre des facultes",
+                "combien de facultes",
+                "quel sont les facultes",
+                "dites moi quels sont vos facultes"
+            ],
+            "responses": [
+                "Il y a 6 facultes : \n Faculte des Sciences,\n Faculte de technologie,\n Faculte des Hydrocarbures et de la Chimie,\n Faculte des Sciences Economiques, Commerciales et des Sciences de Gestion,\n Faculte de Droit,\n Institut de Genie Electrique et Electronique."
+            ],
+            "context_set": ""
+        }
+    ]
+}

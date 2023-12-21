@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Interface d'administration</title>
+</head>
+<body style="background-color :#F1F1F1 ;">
+    <h1>Ajouter une categorie</h1>
+    {% if message %}
+        <p>{{ message }}</p>
+    {% endif %}
+    <form action="/ajouter_intention" method="POST">
+        <label for="tag">Nom de categorie :</label>
+        <input type="text" name="tag" required><br><br>
+
+        <label for="patterns">question(s) :</label>
+        <input type="text" name="patterns" size="100" required><br><br>
+
+        <label for="responses">Réponse(s) :</label>
+        <input type="text" name="responses" size="100" required><br><br>
+
+
+
+        <input type="submit" value="Ajouter">
+    </form>
+</body>
+</html>
+
